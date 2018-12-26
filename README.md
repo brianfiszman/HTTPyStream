@@ -25,14 +25,14 @@ In order to do that you need to run the following commands in your terminal.
 **Enter the project root**
 `cd HTTPyStream`
 
-**Create virtual environment**
-`python -m venv .`
+**Create virtual environment and activate it**
+`python -m venv . && source bin/activate`
 
 If you did everything right your command prompt should have the virtual env's name, like this:
-![](https://imgur.com/a/FmLAA7F) 
+![](https://cdn.pbrd.co/images/HTrC8Uv.png) 
 
 **Install project dependencies**
 `pip install -r requirements.txt`
 
 **Run Project**
-`python CameraService/manage.py runserver `
+`python CameraService/manage.py runserver`
